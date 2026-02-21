@@ -99,7 +99,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProviderClient>
         {/* Replace with your actual GA4 Measurement ID when deploying */}
-        <GoogleAnalytics gaId="G-XXXXXXXXXX" />
+        <GoogleAnalytics gaId="G-JVVT25DN44" />
         <Analytics />
         <SpeedInsights />
       </body>
