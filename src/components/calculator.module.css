@@ -1,0 +1,264 @@
+.calcGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2.5rem;
+    box-shadow: var(--shadow-md);
+    height: 100%;
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.inputGroup {
+    margin-bottom: 2rem;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: var(--secondary-foreground);
+}
+
+.value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--foreground);
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm);
+}
+
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary) 20%, transparent);
+    transition: transform 0.1s;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+    border: none;
+}
+
+.slider:hover::-webkit-slider-thumb {
+    transform: scale(1.2);
+}
+
+.results {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+}
+
+.resultRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    font-size: 1.125rem;
+    color: var(--secondary-foreground);
+}
+
+.resultValue {
+    font-weight: 700;
+    color: var(--foreground);
+}
+
+.resultTotal {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+
+.chartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 400px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    max-width: 100%;
+    height: 8px;
+    background: var(--secondary);
+    border-radius: 4px;
+    outline: none;
+    transition: background 0.2s;
+    box-sizing: border-box;
+}
+
+.tableContainer {
+    margin-top: 3rem;
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background-color: var(--surface);
+    box-shadow: var(--shadow-sm);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: right;
+    font-size: 0.9375rem;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.table th {
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+    color: var(--foreground);
+    font-weight: 600;
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-align: left;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+.table tr:hover td {
+    background-color: color-mix(in srgb, var(--secondary) 20%, transparent);
+}
+
+@media (max-width: 768px) {
+    .calcGrid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0 0.5rem;
+    }
+
+    .card {
+        padding: 1.25rem;
+        max-width: 100%;
+    }
+
+    .label {
+        font-size: 0.875rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .value {
+        font-size: 1rem;
+        padding: 0.2rem 0.5rem;
+    }
+
+    .resultRow {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .resultTotal {
+        font-size: 1.25rem;
+    }
+
+    .chartContainer {
+        min-height: 300px;
+    }
+
+    .table th,
+    .table td {
+        padding: 0.625rem 0.5rem;
+        font-size: 0.8125rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .calcGrid {
+        gap: 1rem;
+        padding: 0;
+        max-width: calc(100vw - 1.5rem);
+    }
+
+    .card {
+        padding: 0.75rem;
+        border-radius: var(--radius-md);
+        width: 100%;
+        max-width: calc(100vw - 1.5rem);
+    }
+
+    .label {
+        font-size: 0.8125rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .value {
+        font-size: 0.8rem;
+        padding: 0.15rem 0.4rem;
+    }
+
+    .results {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    .resultRow {
+        font-size: 0.8125rem;
+        margin-bottom: 0.75rem;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .resultTotal {
+        font-size: 1rem;
+    }
+
+    .chartContainer {
+        min-height: 220px;
+        max-width: calc(100vw - 3rem);
+    }
+
+    .slider::-webkit-slider-thumb {
+        width: 16px;
+        height: 16px;
+    }
+
+    .inputGroup {
+        margin-bottom: 1.25rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 0.5rem 0.375rem;
+        font-size: 0.75rem;
+    }
+}
