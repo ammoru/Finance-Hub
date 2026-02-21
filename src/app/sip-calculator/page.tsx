@@ -6,7 +6,7 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/sip-calculator" },
+    alternates: { canonical: "https://ammoru.in/sip-calculator" },
     title: "Free SIP Calculator: Predict Mutual Fund Returns",
     description: "Calculate your mutual fund SIP (Systematic Investment Plan) returns online. Plan your long-term wealth creation with our beautifully animated calculator.",
     openGraph: { images: ["/api/og?title=Free%20SIP%20Calculator%3A%20Predict%20Mutual%20Fund%20Returns"] },
@@ -17,7 +17,7 @@ const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
     "name": "SIP Calculator",
-    "url": "https://financehub.com/sip-calculator",
+    "url": "https://ammoru.in/sip-calculator",
     "applicationCategory": "FinanceApplication",
     "operatingSystem": "All",
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },

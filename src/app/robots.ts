@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
             userAgent: "*",
             allow: "/",
         },
-        sitemap: "https://financehub.com/sitemap.xml", // Replace with your actual domain
+        sitemap: "https://ammoru.in/sitemap.xml", // Replace with your actual domain
     };
 }

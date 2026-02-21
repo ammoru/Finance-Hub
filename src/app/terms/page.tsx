@@ -58,7 +58,7 @@ export default function TermsPage() {
 
             <section style={sectionStyle}>
                 <h2 style={headingStyle}>9. Contact</h2>
-                <p>For any questions regarding these Terms & Conditions, please reach out at: <strong>contact@financehub.com</strong></p>
+                <p>For any questions regarding these Terms & Conditions, please reach out at: <strong>ammoru42@gmail.com</strong></p>
             </section>
         </div>
     );

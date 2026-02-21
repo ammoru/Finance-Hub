@@ -49,7 +49,7 @@ export default function AboutPage() {
 
             <section style={sectionStyle}>
                 <h2 style={headingStyle}>Contact Us</h2>
-                <p>Have suggestions, feedback, or want to report an issue? We'd love to hear from you! Reach out at: <strong>contact@financehub.com</strong></p>
+                <p>Have suggestions, feedback, or want to report an issue? We'd love to hear from you! Reach out at: <strong>ammoru42@gmail.com</strong></p>
             </section>
         </div>
     );

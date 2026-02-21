@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/income-tax-calculator" },
+    alternates: { canonical: "https://ammoru.in/income-tax-calculator" },
     title: "Income Tax Calculator | Compare Old vs New Tax Regime",
     description: "Calculate your income tax liability instantly. Compare the Old Tax Regime vs New Tax Regime with our latest calculator based on current Government of India tax slabs.",
     openGraph: { images: ["/api/og?title=Income%20Tax%20Calculator%20%7C%20Compare%20Old%20vs%20New%20Tax%20Regime"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=Income%20Tax%20Calculator%20%7C%20Compare%20Old%20vs%20New%20Tax%20Regime"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Income Tax Calculator", "url": "https://financehub.com/income-tax-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Income Tax Calculator", "url": "https://ammoru.in/income-tax-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function IncomeTaxCalculatorPage() {
     return (

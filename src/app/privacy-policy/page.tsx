@@ -65,7 +65,7 @@ export default function PrivacyPolicyPage() {
 
             <section style={sectionStyle}>
                 <h2 style={headingStyle}>9. Contact Us</h2>
-                <p>If you have any questions about this Privacy Policy, you can contact us at: <strong>contact@financehub.com</strong></p>
+                <p>If you have any questions about this Privacy Policy, you can contact us at: <strong>ammoru42@gmail.com</strong></p>
             </section>
         </div>
     );

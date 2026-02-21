@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/lumpsum-calculator" },
+    alternates: { canonical: "https://ammoru.in/lumpsum-calculator" },
     title: "Mutual Fund Lumpsum Calculator | Calculate Onetime Investment Returns",
     description: "Calculate the maturity value of your one-time Lumpsum mutual fund investment. Estimate your wealth creation over time using the power of compounding.",
     openGraph: { images: ["/api/og?title=Mutual%20Fund%20Lumpsum%20Calculator%20%7C%20Calculate%20Onetime%20Investment%20Returns"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=Mutual%20Fund%20Lumpsum%20Calculator%20%7C%20Calculate%20Onetime%20Investment%20Returns"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Lumpsum Calculator", "url": "https://financehub.com/lumpsum-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Lumpsum Calculator", "url": "https://ammoru.in/lumpsum-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function LumpsumCalculatorPage() {
     return (

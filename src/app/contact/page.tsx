@@ -20,19 +20,19 @@ export default function ContactPage() {
                     <div style={{ marginBottom: "2rem" }}>
                         <h3 style={{ color: "var(--foreground)", marginBottom: "0.5rem" }}>📧 Email</h3>
                         <p>For general queries, feedback, or support:<br />
-                            <a href="mailto:contact@financehub.com" style={{ color: "var(--primary)", fontWeight: 600 }}>contact@financehub.com</a></p>
+                            <a href="mailto:ammoru42@gmail.com" style={{ color: "var(--primary)", fontWeight: 600 }}>ammoru42@gmail.com</a></p>
                     </div>
 
                     <div style={{ marginBottom: "2rem" }}>
                         <h3 style={{ color: "var(--foreground)", marginBottom: "0.5rem" }}>🤝 Partnerships & Advertising</h3>
                         <p>For business inquiries, sponsorships, or ad partnerships:<br />
-                            <a href="mailto:business@financehub.com" style={{ color: "var(--primary)", fontWeight: 600 }}>business@financehub.com</a></p>
+                            <a href="mailto:ammoru42@gmail.com" style={{ color: "var(--primary)", fontWeight: 600 }}>ammoru42@gmail.com</a></p>
                     </div>
 
                     <div>
                         <h3 style={{ color: "var(--foreground)", marginBottom: "0.5rem" }}>🐛 Report a Bug</h3>
                         <p>Found an issue with one of our calculators? Let us know and we'll fix it right away:<br />
-                            <a href="mailto:support@financehub.com" style={{ color: "var(--primary)", fontWeight: 600 }}>support@financehub.com</a></p>
+                            <a href="mailto:ammoru42@gmail.com" style={{ color: "var(--primary)", fontWeight: 600 }}>ammoru42@gmail.com</a></p>
                     </div>
                 </div>
             </section>

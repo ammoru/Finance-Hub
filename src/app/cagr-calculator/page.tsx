@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/cagr-calculator" },
+    alternates: { canonical: "https://ammoru.in/cagr-calculator" },
     title: "CAGR Calculator | Calculate Compound Annual Growth Rate Online",
     description: "Easily calculate the Compound Annual Growth Rate (CAGR) of your investments. Find out your actual annualized returns over any given period of time.",
     openGraph: { images: ["/api/og?title=CAGR%20Calculator%20%7C%20Calculate%20Compound%20Annual%20Growth%20Rate%20Online"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=CAGR%20Calculator%20%7C%20Calculate%20Compound%20Annual%20Growth%20Rate%20Online"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "CAGR Calculator", "url": "https://financehub.com/cagr-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "CAGR Calculator", "url": "https://ammoru.in/cagr-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function CAGRCalculatorPage() {
     return (

@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/emi-calculator" },
+    alternates: { canonical: "https://ammoru.in/emi-calculator" },
     title: "EMI Calculator | Home Loan & Car Loan EMI with Amortization",
     description: "Calculate your monthly EMI for Home Loan, Car Loan, or Personal Loan using our accurate EMI Calculator. View full amortization schedule and download PDF.",
     openGraph: { images: ["/api/og?title=EMI%20Calculator%20%7C%20Home%20Loan%20%26%20Car%20Loan%20EMI%20with%20Amortization"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=EMI%20Calculator%20%7C%20Home%20Loan%20%26%20Car%20Loan%20EMI%20with%20Amortization"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "EMI Calculator", "url": "https://financehub.com/emi-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "EMI Calculator", "url": "https://ammoru.in/emi-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function EMICalculatorPage() {
     return (

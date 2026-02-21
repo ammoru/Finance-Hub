@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/hike-calculator" },
+    alternates: { canonical: "https://ammoru.in/hike-calculator" },
     title: "Salary Hike Calculator | Calculate Salary Increment Percentage",
     description: "Calculate your new compensation, salary hike percentage, and monthly take-home increments instantly using our free Salary Increment Calculator.",
     openGraph: { images: ["/api/og?title=Salary%20Hike%20Calculator%20%7C%20Calculate%20Salary%20Increment%20Percentage"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=Salary%20Hike%20Calculator%20%7C%20Calculate%20Salary%20Increment%20Percentage"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Salary Hike Calculator", "url": "https://financehub.com/hike-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "Salary Hike Calculator", "url": "https://ammoru.in/hike-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function SalaryHikeCalculatorPage() {
     return (

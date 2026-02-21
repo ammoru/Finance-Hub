@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/gst-calculator" },
+    alternates: { canonical: "https://ammoru.in/gst-calculator" },
     title: "GST Calculator India: Add or Exclude GST Online",
     description: "Calculate GST amount easily with our free online Goods and Services Tax calculator. Find out the net/gross price including CGST, SGST, and IGST for Indian tax slabs.",
     openGraph: { images: ["/api/og?title=GST%20Calculator%20India%3A%20Add%20or%20Exclude%20GST%20Online"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=GST%20Calculator%20India%3A%20Add%20or%20Exclude%20GST%20Online"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "GST Calculator", "url": "https://financehub.com/gst-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "GST Calculator", "url": "https://ammoru.in/gst-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function GSTCalculatorPage() {
     return (

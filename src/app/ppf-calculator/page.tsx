@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/ppf-calculator" },
+    alternates: { canonical: "https://ammoru.in/ppf-calculator" },
     title: "PPF Calculator | Public Provident Fund Monthly Investment Online",
     description: "Calculate your Public Provident Fund (PPF) maturity amount and interest earned over 15 years. Utilize the latest 7.1% interest rate for tax-saving investments in India.",
     openGraph: { images: ["/api/og?title=PPF%20Calculator%20%7C%20Public%20Provident%20Fund%20Monthly%20Investment%20Online"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=PPF%20Calculator%20%7C%20Public%20Provident%20Fund%20Monthly%20Investment%20Online"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "PPF Calculator", "url": "https://financehub.com/ppf-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "PPF Calculator", "url": "https://ammoru.in/ppf-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function PPFCalculatorPage() {
     return (

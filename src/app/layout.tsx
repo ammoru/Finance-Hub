@@ -14,20 +14,20 @@ export const metadata: Metadata = {
   },
   description: "Free online financial calculators for SIP, EMI, GST, Income Tax, FD, PPF, CAGR, Lumpsum, and Salary Hike. Calculate instantly in your browser — no data stored.",
   alternates: {
-    canonical: "https://financehub.com",
+    canonical: "https://ammoru.in",
   },
   keywords: ["SIP Calculator", "EMI Calculator", "GST Calculator", "Income Tax Calculator", "FD Calculator", "PPF Calculator", "CAGR Calculator", "Lumpsum Calculator", "Salary Hike Calculator", "Financial Calculator India"],
   authors: [{ name: "FinanceHub" }],
   creator: "FinanceHub",
   publisher: "FinanceHub",
-  metadataBase: new URL("https://financehub.com"), // Replace with your real domain
+  metadataBase: new URL("https://ammoru.in"), // Replace with your real domain
   openGraph: {
     type: "website",
     locale: "en_IN",
     siteName: "FinanceHub",
     title: "FinanceHub — Free Premium Financial Calculators for India",
     description: "Calculate SIP, EMI, GST, Income Tax, FD, PPF, CAGR & more. 100% free, instant, and private — runs entirely in your browser.",
-    url: "https://financehub.com",
+    url: "https://ammoru.in",
     images: [
       {
         url: "/api/og?title=FinanceHub&description=Free+online+financial+calculators+for+India.+Calculated+privately+in+your+browser.",
@@ -64,11 +64,11 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "FinanceHub",
-  "url": "https://financehub.com",
+  "url": "https://ammoru.in",
   "description": "Free online financial calculators for India — SIP, EMI, GST, Income Tax, FD, PPF, CAGR, Lumpsum, and Salary Hike.",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://financehub.com/?q={search_term_string}",
+    "target": "https://ammoru.in/?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };

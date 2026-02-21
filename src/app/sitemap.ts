@@ -12,7 +12,7 @@ const seoBanks = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://financehub.com"; // Replace with your actual domain
+    const baseUrl = "https://ammoru.in"; // Replace with your actual domain
 
     const calculators = [
         "/sip-calculator",

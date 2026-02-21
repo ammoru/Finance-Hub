@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: { bank: string } })
     return {
         title: `${bankName} SIP Calculator: Predict ${bankName} Returns Free`,
         description: `Calculate your ${bankName} SIP returns online. Instantly estimate and plan your long-term wealth creation with our free ${bankName} SIP Calculator.`,
-        alternates: { canonical: `https://financehub.com/sip-calculator/${params.bank}` },
+        alternates: { canonical: `https://ammoru.in/sip-calculator/${params.bank}` },
     };
 }
 
@@ -42,7 +42,7 @@ export default function BankSIPCalculatorPage({ params }: { params: { bank: stri
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": `${bankName} SIP Calculator`,
-        "url": `https://financehub.com/sip-calculator/${params.bank}`,
+        "url": `https://ammoru.in/sip-calculator/${params.bank}`,
         "applicationCategory": "FinanceApplication",
         "operatingSystem": "All",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },

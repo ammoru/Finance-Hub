@@ -6,14 +6,14 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import { calculatorFAQs } from "@/data/faqs";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://financehub.com/fd-calculator" },
+    alternates: { canonical: "https://ammoru.in/fd-calculator" },
     title: "Fixed Deposit (FD) Returns Calculator | Bank FD Interest Rates",
     description: "Calculate your Fixed Deposit (FD) maturity amount and interest earned online. Easily find out your bank FD returns using our interactive calculator.",
     openGraph: { images: ["/api/og?title=Fixed%20Deposit%20(FD)%20Returns%20Calculator%20%7C%20Bank%20FD%20Interest%20Rates"] },
     twitter: { card: "summary_large_image", images: ["/api/og?title=Fixed%20Deposit%20(FD)%20Returns%20Calculator%20%7C%20Bank%20FD%20Interest%20Rates"] },
 };
 
-const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "FD Calculator", "url": "https://financehub.com/fd-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
+const jsonLd = { "@context": "https://schema.org", "@type": "WebApplication", "name": "FD Calculator", "url": "https://ammoru.in/fd-calculator", "applicationCategory": "FinanceApplication", "operatingSystem": "All", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" } };
 
 export default function FDCalculatorPage() {
     return (
