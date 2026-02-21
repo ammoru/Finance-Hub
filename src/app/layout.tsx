@@ -5,6 +5,7 @@ import { ThemeProviderClient } from "@/components/ThemeProviderClient";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -100,6 +101,7 @@ export default function RootLayout({
         {/* Replace with your actual GA4 Measurement ID when deploying */}
         <GoogleAnalytics gaId="G-XXXXXXXXXX" />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
