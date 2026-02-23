@@ -61,6 +61,7 @@ export default function Home() {
             <motion.div
               variants={itemVariants as import("framer-motion").Variants}
               className={`premium-card ${styles.card}`}
+               style={{ padding: '6px' ,borderRadius:"10px"}}
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
